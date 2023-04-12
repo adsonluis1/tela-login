@@ -15,10 +15,16 @@ html , body{
 
     background-color: #3A00F5;
 
-    position: relative;
+    
 }
 
 main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section .login{
     height: 500px;
     width: 350px;
     
@@ -44,9 +50,14 @@ main p{
 }
 
 div.foto{
+    display: block;
     background: black url(../img/images.jpeg);
+     height: 150px;
+     
+}
 
-    height: 100px;
+div.formulario{
+    display: block;
 }
 
 form label{

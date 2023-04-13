@@ -8,6 +8,7 @@
 
     section#login{
         width: 80vw;
+        height: 65vh;
     }
 
     section#login > div#foto{
@@ -27,6 +28,21 @@
 
     p{
         font-size: 1.3em;
+    }
+
+    form{
+        
+        margin-top: 15%;
+    }
+
+    input{
+        padding: 10px;
+    }
+
+    input#enviar{
+        padding: 15px;
+        margin-top: 40px;
+        width: 110%;
     }
 }
 
@@ -57,5 +73,20 @@
 
     p{
         font-size: 1.3em;
+    }
+
+    
+    form{
+        
+        margin-top: 25%;
+    }
+
+    input{
+        padding: 10px;
+    }
+
+    input#enviar{
+        padding: 15px;
+        margin-top: 80px;
     }
 }

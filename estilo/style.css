@@ -61,6 +61,72 @@ p{
     font-weight: bold;
 }
 
+form{
+    margin-top: 30px;
+}
+
+input{
+    display: block;
+    padding: 3px;
+    border-radius: 8px;
+    border: 1px solid #3A00F5;
+    margin-bottom: 10px ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+input#inome{
+    display: inline-block;
+    width: 80%;
+}
+
+input#isenha{
+    display: inline-block;
+    width: 80%;
+}
+
+input#iconf{
+   display: inline-block;
+}
+
+input#enviar{
+    background-color: #3A00F5;
+    color: white;
+    border: 1px solid black;
+    width: 109%;
+    margin-top: 10px;
+    margin-left: -10px;
+    border-radius: 0px;
+    box-shadow: none;
+    
+    
+}
+
+
+input#enviar:hover{
+    background-color: #230094;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+input#inome:hover{
+    transition:.3s;
+    width: 85%;
+    border: 2px solid #3A00F5;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.24);
+}
+
+input#isenha:hover{
+    transition:.3s;
+    width: 85%;
+    border: 2px solid #3A00F5;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.24);
+}
+
+.material-symbols-outlined{
+    color: #3A00F5;
+    transform: translateY(6px);
+}
+
 
     
 

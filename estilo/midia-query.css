@@ -1,9 +1,61 @@
 @charset 'UTF-8';
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-        
-    section.login{
-        width: 100%;
+@media screen and (min-width: 491px) and (max-width: 779px) {
+    body{
+        background: #3A00F5 url(../img/fundo-realista-de-luzes-de-neon_52683-59889.avif) center center no-repeat;
+        background-size: cover;
     }
 
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#foto{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+
+    h1{
+        font-size: 2.2em;
+    }
+
+    p{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width:780px) {
+    body{
+        background:#3A00F5 url(../img/fundo-realista-de-luzes-de-neon_52683-59889.avif) center center no-repeat;
+        background-size: cover;
+    }
+    
+    section#login{
+        width: 770px;
+    }
+
+    section#login > div#foto{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+
+    h1{
+        font-size: 2.3em;
+    }
+
+    p{
+        font-size: 1.3em;
+    }
 }
